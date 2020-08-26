@@ -1,0 +1,36 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.product_head {
+    background-color: #0b2e13;
+}
+.cart {
+    position: relative;
+    .icon-num {
+        width: 12px;
+        height: 12px;
+        background-color: green;
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        border-radius: 20px;
+    }
+}
+.item-order {
+    display: flex;
+    .item-order__img {
+        width: 300px;
+    }
+    .item-order__pictures {
+        width: 60%;
+    }
+}
+.container__footer {
+    margin-left: 125px;
+}
